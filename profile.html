@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - AlmaLink</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Profile</h1>
+        <nav>
+            <a href="register.html">Register</a>
+            <a href="login.html">Login</a>
+            <a href="donation.html">Donation</a>
+            <a href="networking.html">Networking</a>
+            <a href="job.html">Job Opportunities</a>
+            <a href="success.html">Success Stories</a>
+            <a href="events.html">Events</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+    </header>
+    <main>
+        <div class="form-section register-container">
+            <img id="profile-picture" src="https://www.shutterstock.com/image-vector/businessman-dark-blue-suit-folded-260nw-1309464580.jpg" alt="Profile Picture" class="profile-pic">
+            <form id="profile-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="bio">Bio:</label>
+                <textarea id="bio" name="bio" rows="5"></textarea>
+                
+                <label for="picture-upload">Upload Picture:</label>
+                <input type="file" id="picture-upload" name="picture-upload" accept="image/*">
+                
+                <label for="picture-url">Picture URL:</label>
+                <input type="text" id="picture-url" name="picture-url">
+                
+                <button type="submit">Update Profile</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

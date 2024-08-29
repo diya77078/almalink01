@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e0f7fa, #f5f5f5); /* Light blue to light gray gradient */
+    color: #333; /* Dark gray text */
+}
+
+header {
+    background-color: #b3e5fc; /* Light blue */
+    color: #333; /* Dark gray text */
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 2px solid #81d4fa; /* Slightly darker blue border */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header .logo {
+    max-width: 150px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+header nav {
+    margin-top: 0.5rem;
+}
+
+header nav a {
+    color: #333; /* Dark gray text for links */
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Form Sections */
+.form-section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px; /* Centering and limiting width */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #ffffff; /* White background for readability */
+}
+
+/* Unique Section Styles */
+.login-container {
+    background-color: #e3f2fd; /* Very light blue */
+    border: 1px solid #bbdefb; /* Light blue border */
+}
+
+.register-container {
+    background-color: #e0f2f1; /* Very light teal */
+    border: 1px solid #b2dfdb; /* Light teal border */
+}
+
+.donation-container {
+    background-color: #f1f8e9; /* Light lime background */
+    border: 1px solid #dcedc8; /* Light lime border */
+}
+
+.networking-container {
+    background-color: #fffde7; /* Light yellow background */
+    border: 1px solid #fff9c4; /* Light yellow border */
+    padding: 1rem;
+    text-align: center;
+}
+
+.job-container {
+    background-color: #e8f5e9; /* Light green background */
+    border: 1px solid #c8e6c9; /* Light green border */
+    padding: 1rem;
+    text-align: center;
+}
+
+.feedback-container {
+    background-color: #f1f8e9; /* Light lime background */
+    border: 1px solid #dcedc8; /* Light lime border */
+    padding: 1rem;
+}
+
+/* Profile Page Styles */
+.profile-pic {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* Form Elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 0.5rem 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #64b5f6; /* Blue button */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #42a5f5; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav a {
+        margin: 0.5rem 0;
+    }
+}
+
